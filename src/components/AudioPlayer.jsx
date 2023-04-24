@@ -10,17 +10,15 @@ import ProgressBar from "./ProgressBar";
 const AudioPlayer = () => {
   const [currentTrack, setCurrentTrack] = useState(tracks[0]);
   
-
+  const progressBarRef = useRef();
   const audioRef = useRef();
   console.log(audioRef);
   return (
-    <div className="audio-player">
-      <div className="inner">
+    <div>
+      <div>
         <DisplayTrack currentTrack={currentTrack} audioRef={audioRef} />
         <Controls audioRef={audioRef} />
-
-        <ProgressBar />
-        
+        <ProgressBar progressBarRef={progressBarRef} />
       </div>
     </div>
     

@@ -28,8 +28,8 @@ const Controls = ({audioRef}) => {
 
 
   return (
-    <div className="controls-wrapper">
-      <div className="controls">  
+    <div>
+      <div>  
         <button>
           <IoPlaySkipBackSharp />
         </button>

@@ -10,7 +10,7 @@ export const tracks = [
     title: "JoeyAK - GABOS (prod. Gubes & Esko)",
     src: gabos,
     author: "JoeyAK",
-    thumbnail: gabos,
+    thumbnail: joeyak,
   },
   {
     title: "Michael Jackson – We Are The World",
